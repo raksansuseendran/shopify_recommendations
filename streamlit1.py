@@ -35,7 +35,7 @@ def get_recommendations(base_url, product_id):
 
 
 base_url = st.text_input('Enter the base URL: ')
-product_handle = st.text_input('Enter the product ID: ')
+product_handle = st.text_input('Enter the product handle: ')
 
 
 if st.button('Get Product Details'):
